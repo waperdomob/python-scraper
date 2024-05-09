@@ -5,7 +5,7 @@
 Este documento proporciona una guía para ejecutar y administrar el microservicio de scraping Django, incluyendo la estructura de la base de datos y la documentación del modelo Invoice.
 
 ## 2. Requisitos Previos
-- Clonar el repositorio: [text](https://github.com/waperdomob/scrapper-api.git)
+- Clonar el repositorio: [link](https://github.com/waperdomob/python-scraper.git)
 - Docker instalado en su sistema local
 - Imagen de Docker construida para el microservicio
 
