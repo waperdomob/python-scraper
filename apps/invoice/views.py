@@ -25,4 +25,7 @@ class InvoiceApiView(APIView):
             return Response({"cufes": cufes}, status=status.HTTP_200_OK)
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
+    def get(self, request):
+        cufes = self.instance.get_all_invoices_data()
+        return Response({"cufes": cufes}, status=status.HTTP_200_OK)
